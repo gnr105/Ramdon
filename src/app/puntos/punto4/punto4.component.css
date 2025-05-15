@@ -1,0 +1,50 @@
+button{
+    background-color: #78e474;
+    border-radius: 10%;
+}
+button:hover{
+    background-color: #e4e074;
+    color: #5c3df8;
+}
+.form-group {
+  display: flex;
+  flex-direction: column; /* Cambia la dirección de los elementos a columna */
+  margin-bottom: 10px; /* Añade un margen debajo de cada grupo */
+}
+
+.form-group label {
+  margin-bottom: 5px; /* Añade un margen debajo de las etiquetas */
+  display: block; /* Asegura que la etiqueta ocupe toda la línea */
+  color: #f0f0f0;
+}
+
+.form-group input,
+.form-group select {
+  /*width: 40%; /* Los inputs y selects ocupan el ancho del contenedor */
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+td {
+  display: table-cell;
+}
+

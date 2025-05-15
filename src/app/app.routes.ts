@@ -3,6 +3,7 @@ import { Punto1Component } from './puntos/punto1/punto1.component';
 import { Punto2Component } from './puntos/punto2/punto2.component';
 import { Punto3Component } from './puntos/punto3/punto3.component';
 import { HomeComponent } from './components/home/home.component';
+import { Punto4Component } from './puntos/punto4/punto4.component';
 
 export const routes: Routes = [
     {
@@ -25,5 +26,9 @@ export const routes: Routes = [
     {
         path: "punto3",
         component: Punto3Component
+    },
+    {
+        path: "punto4",
+        component: Punto4Component
     }
 ];
