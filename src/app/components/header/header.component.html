@@ -1,0 +1,26 @@
+<nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" [routerLink]="['home']">
+          <img src="assets/lgcallata.png" alt="" width="60" height="60" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['punto1']">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['punto2']">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['punto3']">Juego</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['punto3']">Pasajes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+</nav>

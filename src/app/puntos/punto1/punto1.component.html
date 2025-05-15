@@ -1,0 +1,16 @@
+<div class="container my-4">
+    <ngb-carousel *ngIf="noticias && noticias.length" class="w-100">
+        <ng-template ngbSlide *ngFor="let noticia of noticias">
+          <div class="carousel-image-wrapper">
+            <img [src]="noticia.imagen" [alt]="noticia.titulo" />
+          </div>
+          <div class="carousel-caption">
+            <h2>{{ noticia.titulo }}</h2>
+            <p>{{ noticia.descripcion }}</p>
+          </div>
+        </ng-template>
+    </ngb-carousel>
+      
+</div>
+
+
